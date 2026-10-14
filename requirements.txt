@@ -1,0 +1,6 @@
+streamlit
+ultralytics
+pyzbar
+opencv-python
+zxing-cpp
+pillow

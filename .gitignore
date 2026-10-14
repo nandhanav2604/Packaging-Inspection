@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editor / secrets
+.vscode/
+.env
+.streamlit/secrets.toml
+
+# Data and outputs (large, or owned by dataset authors)
+merged_dataset/
+datasets/
+external_data/
+audit_output/
+evaluation_output*/
+training_run/
+runs/
+*.zip
+
+# Model files: keep only the final model
+*.pt
+!best_yolov8s.pt
+*.onnx

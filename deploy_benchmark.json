@@ -1,0 +1,28 @@
+{
+  "model": "best_yolov8s.pt",
+  "images_timed": 25,
+  "imgsz": 640,
+  "pt": {
+    "size_mb": 21.5,
+    "wall_ms_mean_median_p95": [
+      311.0,
+      289.9,
+      590.2
+    ],
+    "inference_only_ms_mean": 297.5
+  },
+  "onnx": {
+    "size_mb": 42.7,
+    "wall_ms_mean_median_p95": [
+      390.2,
+      338.0,
+      734.5
+    ],
+    "inference_only_ms_mean": 357.5
+  },
+  "full_pipeline_ms_mean_median_p95": [
+    1088.6,
+    1075.8,
+    1461.8
+  ]
+}
